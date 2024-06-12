@@ -81,34 +81,7 @@ const LandingPageTemplate = () => {
         `}
       </style>
       <main>
-        <Section>
-          <Container center className={styles.headerSection}>
-            <H1>
-              <span className={styles.textGradient}>Your project is a go!</span>{" "}
-              Rafi
-            </H1>
-            <Subtitle>
-              Get started by editing <InlineCode>pages/index.tsx</InlineCode>
-            </Subtitle>
-          </Container>
-        </Section>
-
-        <Section>
-          <Container className={styles.technologyGridIntro}>
-            <H2>Technologies</H2>
-            <Paragraph>
-              Below you will find an overview of your chosen technologies
-              providing you helpful links and simple usage examples to get you
-              started.
-            </Paragraph>
-          </Container>
-          <Container wide>
-            <TechnologyGrid
-              technologies={technologies}
-              className={styles.technologyGrid}
-            />
-          </Container>
-        </Section>
+        Ini adalah percobaan
       </main>
       <footer>
         <Section>
